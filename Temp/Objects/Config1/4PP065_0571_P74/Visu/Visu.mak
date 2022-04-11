@@ -57,7 +57,7 @@ LIB_LOCAL_OBJ_Visu=$(TEMP_PATH_Visu)/localobj.vca
 # Hardware sources
 PANEL_HW_OBJECT_Visu=$(TEMP_PATH_ROOT_Visu)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visu/dis.Hardware.vco
 PANEL_HW_VCI_Visu=$(TEMP_PATH_ROOT_Visu)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visu/dis.Hardware.vci
-PANEL_HW_SOURCE_Visu=C:/Users/admin/Documents/KVBO-04-21/Chernenko/3/Physical/Config1/Hardware.hw 
+PANEL_HW_SOURCE_Visu=C:/Users/admin/Documents/KVBO-04-21/Chernenko/4/Physical/Config1/Hardware.hw 
 DIS_OBJECTS_Visu=$(PANEL_HW_OBJECT_Visu) $(KEYMAP_OBJECTS_Visu)
 
 # KeyMapping flags
@@ -209,7 +209,11 @@ TPR_SOURCES_Visu=$(AS_PROJECT_PATH)/Logical/Visu/TouchPads/NumPad.tpr \
 TDC_SOURCES_Visu=$(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData.tdc 
 
 TRD_SOURCES_Visu=$(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_1.trd \
-	$(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_2.trd 
+	$(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_2.trd \
+	$(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_3.trd \
+	$(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_4.trd \
+	$(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_5.trd \
+	$(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_6.trd 
 
 TRE_SOURCES_Visu=$(AS_PROJECT_PATH)/Logical/Visu/Trends/Trend_1.tre \
 	$(AS_PROJECT_PATH)/Logical/Visu/Trends/Trend_2.tre 
@@ -300,27 +304,27 @@ $(VCVK_OBJECTS_Visu): $(VC_LANGUAGES_Visu)
 TPR_OBJECTS_Visu = $(addprefix $(TEMP_PATH_Visu)/tpr., $(notdir $(TPR_SOURCES_Visu:.tpr=.vco)))
 
 $(TEMP_PATH_Visu)/tpr.NumPad.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/NumPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/3/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/4/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.AlphaPadQVGA.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/AlphaPadQVGA.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/3/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/4/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.AlphaPad.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/AlphaPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/3/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/4/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.NavigationPad_ver.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/NavigationPad_ver.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/3/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/4/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.NavigationPad_hor.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/NavigationPad_hor.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/3/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/4/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 $(TEMP_PATH_Visu)/tpr.EditPad.vco: $(AS_PROJECT_PATH)/Logical/Visu/TouchPads/EditPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/3/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu) -prj 'C:/Users/admin/Documents/KVBO-04-21/Chernenko/4/Logical/Visu' -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 
 #Touch Pads END
@@ -688,6 +692,22 @@ $(TEMP_PATH_Visu)/trd.TrendData_1.vco: $(AS_PROJECT_PATH)/Logical/Visu/Trends/Tr
 
 
 $(TEMP_PATH_Visu)/trd.TrendData_2.vco: $(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_2.trd
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu)  -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+
+
+$(TEMP_PATH_Visu)/trd.TrendData_3.vco: $(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_3.trd
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu)  -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+
+
+$(TEMP_PATH_Visu)/trd.TrendData_4.vco: $(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_4.trd
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu)  -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+
+
+$(TEMP_PATH_Visu)/trd.TrendData_5.vco: $(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_5.trd
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu)  -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
+
+
+$(TEMP_PATH_Visu)/trd.TrendData_6.vco: $(AS_PROJECT_PATH)/Logical/Visu/Trends/TrendData_6.trd
 	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu)' $(VCCFLAGS_Visu)  -p Visu -so $(VC_STATIC_OPTIONS_Visu) -vcr 4520 -sfas
 
 

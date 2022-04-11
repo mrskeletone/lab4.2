@@ -1,5 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SymbolTable>
+  <Symbol Name="\DPV\POBJ" Index="0" Type="DP" RefString="Source[global].Variable[DataSource.motor.speed]" />
+  <Symbol Name="\DPV\POBJ" Index="1" Type="DP" RefString="Source[global].Variable[DataSource.active_deactive]" />
+  <Symbol Name="\DPV\POBJ" Index="2" Type="DP" RefString="Source[global].Variable[DataSource.led[0]]" />
+  <Symbol Name="\DPV\POBJ" Index="3" Type="DP" RefString="Source[global].Variable[DataSource.led[1]]" />
+  <Symbol Name="\DPV\POBJ" Index="4" Type="DP" RefString="Source[global].Variable[DataSource.led[2]]" />
+  <Symbol Name="\DPV\POBJ" Index="5" Type="DP" RefString="Source[global].Variable[DataSource.led[3]]" />
+  <Symbol Name="\DPV\POBJ" Index="6" Type="DP" RefString="Source[global].Variable[DataSource.active_deactive_taming]" />
+  <Symbol Name="\DPV\POBJ" Index="7" Type="DP" RefString="Source[global].Variable[Internal.Display.Brightness]" />
+  <Symbol Name="\DPV\POBJ" Index="8" Type="DP" RefString="Source[global].Variable[Internal.Display.Contrast]" />
+  <Symbol Name="\DPV\POBJ" Index="9" Type="DP" RefString="Source[global].Variable[Internal.Display.BackLight]" />
+  <Symbol Name="\DPV\POBJ" Index="10" Type="DP" RefString="Source[global].Variable[Internal.Connection.IPAddress]" />
+  <Symbol Name="\DPV\POBJ" Index="11" Type="DP" RefString="Source[global].Variable[Internal.Connection.NodeNumber]" />
+  <Symbol Name="\DPV\POBJ" Index="12" Type="DP" RefString="Source[global].Variable[Internal.Temperature.CPU]" />
+  <Symbol Name="\DPV\POBJ" Index="13" Type="DP" RefString="Source[global].Variable[Internal.Temperature.Room]" />
+  <Symbol Name="\DPV\POBJ" Index="14" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Day]" />
+  <Symbol Name="\DPV\POBJ" Index="15" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Hour]" />
+  <Symbol Name="\DPV\POBJ" Index="16" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Minute]" />
+  <Symbol Name="\DPV\POBJ" Index="17" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Month]" />
+  <Symbol Name="\DPV\POBJ" Index="18" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Second]" />
+  <Symbol Name="\DPV\POBJ" Index="19" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Year]" />
+  <Symbol Name="\DPV\POBJ" Index="20" Type="DP" RefString="Source[global].Variable[Internal.DateTime.DayOfWeek]" />
+  <Symbol Name="\DPV\POBJ" Index="21" Type="DP" RefString="Source[global].Variable[Internal.Memory.LargestFreeBlock]" />
+  <Symbol Name="\DPV\POBJ" Index="22" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalFree]" />
+  <Symbol Name="\DPV\POBJ" Index="23" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalInstalled]" />
   <Symbol Name="\UnitGroups\POBJ" Index="2" Type="UNIT" RefString="Source[global].UnitGroup[Length].Unit[Millimeter]" />
   <Symbol Name="\UnitGroups\POBJ" Index="3" Type="UNIT" RefString="Source[global].UnitGroup[Length].Unit[Centimeter]" />
   <Symbol Name="\UnitGroups\POBJ" Index="1" Type="UNIT" RefString="Source[global].UnitGroup[Length].Unit[Meter]" />
@@ -42,30 +66,13 @@
   <Symbol Name="\TextGroupBase\AlarmState" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState]" />
   <Symbol Name="\TextGroupBase\DateTimeFormats" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats]" />
   <Symbol Name="\TextGroupBase\httpURL_SDM" Index="2147483649" Type="TG" RefString="Source[global].TextGroup[httpURL_SDM]" />
-  <Symbol Name="\DPV\POBJ" Index="0" Type="DP" RefString="Source[global].Variable[DataSource.motor.speed]" />
-  <Symbol Name="\DPV\POBJ" Index="1" Type="DP" RefString="Source[global].Variable[DataSource.active_deactive]" />
-  <Symbol Name="\DPV\POBJ" Index="2" Type="DP" RefString="Source[global].Variable[DataSource.led[0]]" />
-  <Symbol Name="\DPV\POBJ" Index="3" Type="DP" RefString="Source[global].Variable[DataSource.led[1]]" />
-  <Symbol Name="\DPV\POBJ" Index="4" Type="DP" RefString="Source[global].Variable[DataSource.led[2]]" />
-  <Symbol Name="\DPV\POBJ" Index="5" Type="DP" RefString="Source[global].Variable[DataSource.led[3]]" />
-  <Symbol Name="\DPV\POBJ" Index="6" Type="DP" RefString="Source[global].Variable[DataSource.active_deactive_taming]" />
-  <Symbol Name="\DPV\POBJ" Index="7" Type="DP" RefString="Source[global].Variable[Internal.Display.Brightness]" />
-  <Symbol Name="\DPV\POBJ" Index="8" Type="DP" RefString="Source[global].Variable[Internal.Display.Contrast]" />
-  <Symbol Name="\DPV\POBJ" Index="9" Type="DP" RefString="Source[global].Variable[Internal.Display.BackLight]" />
-  <Symbol Name="\DPV\POBJ" Index="10" Type="DP" RefString="Source[global].Variable[Internal.Connection.IPAddress]" />
-  <Symbol Name="\DPV\POBJ" Index="11" Type="DP" RefString="Source[global].Variable[Internal.Connection.NodeNumber]" />
-  <Symbol Name="\DPV\POBJ" Index="12" Type="DP" RefString="Source[global].Variable[Internal.Temperature.CPU]" />
-  <Symbol Name="\DPV\POBJ" Index="13" Type="DP" RefString="Source[global].Variable[Internal.Temperature.Room]" />
-  <Symbol Name="\DPV\POBJ" Index="14" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Day]" />
-  <Symbol Name="\DPV\POBJ" Index="15" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Hour]" />
-  <Symbol Name="\DPV\POBJ" Index="16" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Minute]" />
-  <Symbol Name="\DPV\POBJ" Index="17" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Month]" />
-  <Symbol Name="\DPV\POBJ" Index="18" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Second]" />
-  <Symbol Name="\DPV\POBJ" Index="19" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Year]" />
-  <Symbol Name="\DPV\POBJ" Index="20" Type="DP" RefString="Source[global].Variable[Internal.DateTime.DayOfWeek]" />
-  <Symbol Name="\DPV\POBJ" Index="21" Type="DP" RefString="Source[global].Variable[Internal.Memory.LargestFreeBlock]" />
-  <Symbol Name="\DPV\POBJ" Index="22" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalFree]" />
-  <Symbol Name="\DPV\POBJ" Index="23" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalInstalled]" />
+  <Symbol Name="\DPV\POBJ" Index="0" Type="DP" RefString="Source[global].Variable[DataSource.motor.EVIRD.RealSpeed]" />
+  <Symbol Name="\DPV\POBJ" Index="8" Type="DP" RefString="Source[global].Variable[DataSource.TrueSpeed]" />
+  <Symbol Name="Source[global].AlarmSystem[AS1]" Index="3221225472" Type="AS" RefString="Source[global].AlarmSystem[AS1]" />
+  <Symbol Name="Source[global].DataSource[Internal]" Index="3221225472" Type="DS" RefString="Source[global].DataSource[Internal]" />
+  <Symbol Name="Source[global].DataSource[DataSource]" Index="3221225473" Type="DS" RefString="Source[global].DataSource[DataSource]" />
+  <Symbol Name="Source[global].DPV[]" Index="3221225472" Type="DPM" RefString="Source[global].DPV[]" />
+  <Symbol Name="Source[global].RuntimeShared[RTMS]" Index="3221225472" Type="RTMS" RefString="Source[global].RuntimeShared[RTMS]" />
   <Symbol Name="Source[global].UnitGroup[Length]" Index="3221225472" Type="UG" RefString="Source[global].UnitGroup[Length]" />
   <Symbol Name="Source[global].UnitGroup[Length].Unit[$OneToOne]" Index="3221225480" Type="UNIT" RefString="Source[global].UnitGroup[Length].Unit[$OneToOne]" />
   <Symbol Name="Source[global].UnitGroup[Mass]" Index="3221225473" Type="UG" RefString="Source[global].UnitGroup[Mass]" />
@@ -88,11 +95,6 @@
   <Symbol Name="Source[global].TextGroup[Pressure_embedded]" Index="3221225477" Type="TG" RefString="Source[global].TextGroup[Pressure_embedded]" />
   <Symbol Name="Source[global].TextGroup[Temperatures_embedded]" Index="3221225478" Type="TG" RefString="Source[global].TextGroup[Temperatures_embedded]" />
   <Symbol Name="Source[global].TextGroup[AG.SystemAlarms.AS1]" Index="3221225479" Type="TG" RefString="Source[global].TextGroup[AG.SystemAlarms.AS1]" />
-  <Symbol Name="Source[global].AlarmSystem[AS1]" Index="3221225472" Type="AS" RefString="Source[global].AlarmSystem[AS1]" />
-  <Symbol Name="Source[global].DataSource[Internal]" Index="3221225472" Type="DS" RefString="Source[global].DataSource[Internal]" />
-  <Symbol Name="Source[global].DataSource[DataSource]" Index="3221225473" Type="DS" RefString="Source[global].DataSource[DataSource]" />
-  <Symbol Name="Source[global].DPV[]" Index="3221225472" Type="DPM" RefString="Source[global].DPV[]" />
-  <Symbol Name="Source[global].RuntimeShared[RTMS]" Index="3221225472" Type="RTMS" RefString="Source[global].RuntimeShared[RTMS]" />
   <Symbol Name="\UnitGroups\POBJ" Index="0" Type="UNIT" RefString="Source[global].UnitGroup[Length].Unit[$default]" />
   <Symbol Name="\UnitGroups\POBJ" Index="0" Type="UNIT" RefString="Source[global].UnitGroup[Mass].Unit[$default]" />
   <Symbol Name="\UnitGroups\POBJ" Index="0" Type="UNIT" RefString="Source[global].UnitGroup[Volume].Unit[$default]" />
@@ -305,8 +307,7 @@
   <Symbol Name="Source[local].Layer[CommonLayer_1].Control[DateTime_1]" Index="1073741837" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[DateTime_1]" />
   <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Button_1]" Index="1073741838" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Button_1]" />
   <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Button_2]" Index="1073741839" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Button_2]" />
-  <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Button_3]" Index="1073741840" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Button_3]" />
-  <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Button_4]" Index="1073741841" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Button_4]" />
+  <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Button_4]" Index="1073741840" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Button_4]" />
   <Symbol Name="Source[local].Layer[CommonLayer_1]" Index="1073741828" Type="LAY" RefString="Source[local].Layer[CommonLayer_1]" />
   <Symbol Name="Source[local].Page[Init_Page].Layer[Default].TextGroup[Embedded]" Index="1073741824" Type="TG" RefString="Source[local].Page[Init_Page].Layer[Default].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Page[Page_1].Layer[Default].TextGroup[Embedded]" Index="1073741825" Type="TG" RefString="Source[local].Page[Page_1].Layer[Default].TextGroup[Embedded]" />
@@ -445,13 +446,12 @@
   <Symbol Name="Source[local].VirtualKey[TP_SelectionMode]" Index="1073741960" Type="VKEY" RefString="Source[local].VirtualKey[TP_SelectionMode]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_2]" Index="1073741961" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_2]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_5]" Index="1073741962" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_5]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_6]" Index="1073741963" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_6]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_12]" Index="1073741964" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_12]" />
-  <Symbol Name="Source[local].TouchPad[NumPad].Control[TouchPadEdit]" Index="1073741842" Type="CTRL" RefString="Source[local].TouchPad[NumPad].Control[TouchPadEdit]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_12]" Index="1073741963" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_12]" />
+  <Symbol Name="Source[local].TouchPad[NumPad].Control[TouchPadEdit]" Index="1073741841" Type="CTRL" RefString="Source[local].TouchPad[NumPad].Control[TouchPadEdit]" />
   <Symbol Name="Source[local].TouchPad[NumPad]" Index="1073741824" Type="OVL" RefString="Source[local].TouchPad[NumPad]" />
-  <Symbol Name="Source[local].TouchPad[AlphaPadQVGA].Control[TouchPadEdit]" Index="1073741843" Type="CTRL" RefString="Source[local].TouchPad[AlphaPadQVGA].Control[TouchPadEdit]" />
+  <Symbol Name="Source[local].TouchPad[AlphaPadQVGA].Control[TouchPadEdit]" Index="1073741842" Type="CTRL" RefString="Source[local].TouchPad[AlphaPadQVGA].Control[TouchPadEdit]" />
   <Symbol Name="Source[local].TouchPad[AlphaPadQVGA]" Index="1073741825" Type="OVL" RefString="Source[local].TouchPad[AlphaPadQVGA]" />
-  <Symbol Name="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit]" Index="1073741844" Type="CTRL" RefString="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit]" />
+  <Symbol Name="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit]" Index="1073741843" Type="CTRL" RefString="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit]" />
   <Symbol Name="Source[local].TouchPad[AlphaPad]" Index="1073741826" Type="OVL" RefString="Source[local].TouchPad[AlphaPad]" />
   <Symbol Name="Source[local].TouchPad[NavigationPad_ver]" Index="1073741827" Type="OVL" RefString="Source[local].TouchPad[NavigationPad_ver]" />
   <Symbol Name="Source[local].TouchPad[NavigationPad_hor]" Index="1073741828" Type="OVL" RefString="Source[local].TouchPad[NavigationPad_hor]" />
@@ -460,20 +460,24 @@
   <Symbol Name="Source[local].TrendDataConfiguration[TrendData]" Index="1073741824" Type="TDC" RefString="Source[local].TrendDataConfiguration[TrendData]" />
   <Symbol Name="Source[local].TrendData[TrendData_1]" Index="1073741824" Type="TRD" RefString="Source[local].TrendData[TrendData_1]" />
   <Symbol Name="Source[local].TrendData[TrendData_2]" Index="1073741825" Type="TRD" RefString="Source[local].TrendData[TrendData_2]" />
+  <Symbol Name="Source[local].TrendData[TrendData_3]" Index="1073741826" Type="TRD" RefString="Source[local].TrendData[TrendData_3]" />
+  <Symbol Name="Source[local].TrendData[TrendData_4]" Index="1073741827" Type="TRD" RefString="Source[local].TrendData[TrendData_4]" />
+  <Symbol Name="Source[local].TrendData[TrendData_5]" Index="1073741828" Type="TRD" RefString="Source[local].TrendData[TrendData_5]" />
+  <Symbol Name="Source[local].TrendData[TrendData_6]" Index="1073741829" Type="TRD" RefString="Source[local].TrendData[TrendData_6]" />
   <Symbol Name="Source[local].Trend[Trend_1]" Index="1073741824" Type="TRE" RefString="Source[local].Trend[Trend_1]" />
-  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendGrid_1]" Index="1073741845" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendGrid_1]" />
-  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendScaleContainer_1]" Index="1073741846" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendScaleContainer_1]" />
-  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendScaleContainer_2]" Index="1073741847" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendScaleContainer_2]" />
-  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendTimeScale_1]" Index="1073741848" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendTimeScale_1]" />
-  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendValueScale_1]" Index="1073741849" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendValueScale_1]" />
-  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendData_1_Curve]" Index="1073741850" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendData_1_Curve]" />
+  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendGrid_1]" Index="1073741844" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendGrid_1]" />
+  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendScaleContainer_1]" Index="1073741845" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendScaleContainer_1]" />
+  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendScaleContainer_2]" Index="1073741846" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendScaleContainer_2]" />
+  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendTimeScale_1]" Index="1073741847" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendTimeScale_1]" />
+  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendValueScale_1]" Index="1073741848" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendValueScale_1]" />
+  <Symbol Name="Source[local].Trend[Trend_1].Control[TrendData_5_Curve]" Index="1073741849" Type="CTRL" RefString="Source[local].Trend[Trend_1].Control[TrendData_5_Curve]" />
   <Symbol Name="Source[local].Trend[Trend_2]" Index="1073741825" Type="TRE" RefString="Source[local].Trend[Trend_2]" />
-  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendGrid_1]" Index="1073741851" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendGrid_1]" />
-  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendScaleContainer_1]" Index="1073741852" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendScaleContainer_1]" />
-  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendScaleContainer_2]" Index="1073741853" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendScaleContainer_2]" />
-  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendTimeScale_1]" Index="1073741854" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendTimeScale_1]" />
-  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendValueScale_1]" Index="1073741855" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendValueScale_1]" />
-  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendData_2_Curve]" Index="1073741856" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendData_2_Curve]" />
+  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendGrid_1]" Index="1073741850" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendGrid_1]" />
+  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendScaleContainer_1]" Index="1073741851" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendScaleContainer_1]" />
+  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendScaleContainer_2]" Index="1073741852" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendScaleContainer_2]" />
+  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendTimeScale_1]" Index="1073741853" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendTimeScale_1]" />
+  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendValueScale_1]" Index="1073741854" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendValueScale_1]" />
+  <Symbol Name="Source[local].Trend[Trend_2].Control[TrendData_6_Curve]" Index="1073741855" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendData_6_Curve]" />
   <Symbol Name="Source[local].StyleGroup[0x00000400].StyleClass[default]" Index="1073741833" Type="REF" RefString="Source[local].StyleGroup[0x00000400].StyleClass[default]" />
   <Symbol Name="Source[local].StyleGroup[0x00001001].StyleClass[Shape]" Index="1073741834" Type="REF" RefString="Source[local].StyleGroup[0x00001001].StyleClass[Shape]" />
   <Symbol Name="Source[local].StyleGroup[0x00001002].StyleClass[ButtonBackward]" Index="1073741835" Type="REF" RefString="Source[local].StyleGroup[0x00001002].StyleClass[ButtonBackward]" />
@@ -525,8 +529,7 @@
   <Symbol Name="Source[local].StyleGroup[0x00001020].StyleClass[Gauge]" Index="1073741881" Type="REF" RefString="Source[local].StyleGroup[0x00001020].StyleClass[Gauge]" />
   <Symbol Name="\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" Index="1073741961" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_2]#\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" />
   <Symbol Name="\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" Index="1073741962" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_5]#\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" />
-  <Symbol Name="\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" Index="1073741963" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_6]#\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" />
-  <Symbol Name="\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" Index="1073741964" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_12]#\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" />
+  <Symbol Name="\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" Index="1073741963" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_12]#\Projects\Visu\Layers\CommonLayer_1\VKeys\Common" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741824" Type="TG" RefString="Source[local].Page[Init_Page].Layer[Default].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741825" Type="TG" RefString="Source[local].Page[Page_1].Layer[Default].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741826" Type="TG" RefString="Source[local].Page[Page_2].Layer[Default].TextGroup[Embedded].Language[en]" />

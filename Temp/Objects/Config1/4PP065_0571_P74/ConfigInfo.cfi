@@ -9,13 +9,13 @@
       Source="ncsdcctrl"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Temp\Objects\Config1\4PP065_0571_P74\ncsdcctrl\ncsdcctrlCyclic.st.var" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Temp\Objects\Config1\4PP065_0571_P74\ncsdcctrl\ncsdcctrlCyclic.st.var" />
       <InternalFile
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Temp\Objects\Config1\4PP065_0571_P74\ncsdcctrl\ncsdcctrlInit.st.var" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Temp\Objects\Config1\4PP065_0571_P74\ncsdcctrl\ncsdcctrlInit.st.var" />
       <File
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Logical\ncsdcctrl\ncsdcctrl.typ" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Logical\ncsdcctrl\ncsdcctrl.typ" />
       <File
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Logical\ncsdcctrl\ncsdcctrl.var" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Logical\ncsdcctrl\ncsdcctrl.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -30,9 +30,9 @@
       Source="motor"
       Language="ANSIC">
       <File
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Logical\motor\Types.typ" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Logical\motor\Types.typ" />
       <File
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Logical\motor\Variables.var" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Logical\motor\Variables.var" />
     </Task>
     <Task
       Name="light"
@@ -40,9 +40,9 @@
       Source="light"
       Language="ANSIC">
       <File
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Logical\light\Types.typ" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Logical\light\Types.typ" />
       <File
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Logical\light\Variables.var" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Logical\light\Variables.var" />
     </Task>
     <Task
       Name="light_tami"
@@ -50,9 +50,9 @@
       Source="light_taming"
       Language="ANSIC">
       <File
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Logical\light_taming\Types.typ" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Logical\light_taming\Types.typ" />
       <File
-        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\3\Logical\light_taming\Variables.var" />
+        Path="C:\Users\admin\Documents\KVBO-04-21\Chernenko\4\Logical\light_taming\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

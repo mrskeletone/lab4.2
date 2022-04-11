@@ -178,7 +178,10 @@
     <Source File="Trends\TrendData_2.trd"/>
     <Source File="Trends\TrendData_3.trd"/>
     <Source File="Trends\TrendData_4.trd"/>
+    <Source File="Trends\TrendData_5.trd"/>
+    <Source File="Trends\TrendData_6.trd"/>
     <Source File="Trends\Trend_1.tre"/>
+    <Source File="Trends\Trend_2.tre"/>
     <Source File="VirtualKeys.vcvk"/>
     <Source File="Palette.vcr"/>
   </SourceFiles>

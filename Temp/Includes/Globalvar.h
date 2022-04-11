@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1648481554_1_
-#define _BUR_1648481554_1_
+#ifndef _BUR_1649683876_1_
+#define _BUR_1649683876_1_
 
 #include <bur/plctypes.h>
 
@@ -27,6 +27,7 @@ _GLOBAL signed short speed_plus_50;
 _GLOBAL struct SdcDiDoIf_typ gAxis01_DiDoIf;
 _GLOBAL struct SdcDrvIf16_typ gAxis01_DrvIf;
 _GLOBAL struct SdcHwCfg_typ gAxis01_HW;
+_GLOBAL signed short TrueSpeed;
 
 
 
@@ -42,5 +43,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.var\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1648481554_1_ */
+#endif /* _BUR_1649683876_1_ */
 

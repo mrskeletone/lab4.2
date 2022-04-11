@@ -17,5 +17,5 @@ VAR_CONFIG
 	Cyclic#1.gAxis01_DiDoIf.iDriveReady AT %IX."8I64xxxxxxx.00x-1".ETAD_Input_Bool_02;
 	::motor:EVIRD.STATE AT %IW."8I64xxxxxxx.00x-1".ETAD_Input;
 	::motor:EVIRD.COMMAND AT %QW."8I64xxxxxxx.00x-1".CMDD_Output;
-	::TrueSpeed AT %IW."8I64xxxxxxx.00x-1".RFRD_Input;
+	::motor:EVIRD.RealSpeed AT %IW."8I64xxxxxxx.00x-1".RFRD_Input;
 END_VAR

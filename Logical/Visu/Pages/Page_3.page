@@ -45,11 +45,11 @@
         <Control ClassId="0x00001011" Name="Trend_1">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="164"/>
+          <Property Name="Height" Value="163"/>
           <Property Name="Left" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Trend]"/>
-          <Property Name="Top" Value="41"/>
-          <Property Name="TrendConfig" Value="Source[local].Trend[Trend_1]"/>
+          <Property Name="Top" Value="40"/>
+          <Property Name="TrendConfig" Value="Source[local].Trend[Trend_2]"/>
           <Property Name="Width" Value="320"/>
         </Control>
       </Controls>

@@ -1,5 +1,5 @@
 VAR
-	TrueSpeed : {REDUND_UNREPLICABLE} INT;
+	TrueSpeed : INT;
 	gAxis01_HW : SdcHwCfg_typ := (0);
 	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
 	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);

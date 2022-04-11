@@ -43,6 +43,7 @@ typedef struct DRIVE
 	unsigned short STATE;
 	/* VAR_OUTPUT (analog) */
 	unsigned short COMMAND;
+	signed short RealSpeed;
 	/* VAR_INPUT (digital) */
 	plcbit ENABLE;
 } DRIVE_typ;

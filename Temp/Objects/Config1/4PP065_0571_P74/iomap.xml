@@ -1420,6 +1420,7 @@
 </LN>
 <LN ID="%IW.IF4.ST2.IF1.ST11.RFRD_Input" Type="INT">
 <Prod Device="IF4.ST2.IF1.ST11" DPName="RFRD_Input" Kind="io"/>
+<Cons Device="TC#4-CPYDEV" DPName="::motor:EVIRD.RealSpeed" Kind="pv"/>
 </LN>
 <LN ID="%IW.IF4.ST2.IF1.ST11.OTR_Input" Type="INT">
 <Prod Device="IF4.ST2.IF1.ST11" DPName="OTR_Input" Kind="io"/>

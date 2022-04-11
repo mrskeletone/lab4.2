@@ -26,7 +26,7 @@
           <Int32 Name="ValueScaleControls">1</Int32>
           <Reference Name="TrendValueScale_1" Type="CTRL">Source[local].Trend[Trend_2].Control[TrendValueScale_1]</Reference>
           <Int32 Name="CurveControls">1</Int32>
-          <Reference Name="TrendData_2_Curve" Type="CTRL">Source[local].Trend[Trend_2].Control[TrendData_2_Curve]</Reference>
+          <Reference Name="TrendData_6_Curve" Type="CTRL">Source[local].Trend[Trend_2].Control[TrendData_6_Curve]</Reference>
         </Object>
       </Folder>
       <Folder Name="Controls">
@@ -128,12 +128,12 @@
             <UInt16 Name="Size">0</UInt16>
           </Group>
         </Object>
-        <Object Name="TrendData_2_Curve" ClsId="0x1016" Version="1" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendData_2_Curve]">
+        <Object Name="TrendData_6_Curve" ClsId="0x1016" Version="1" Type="CTRL" RefString="Source[local].Trend[Trend_2].Control[TrendData_6_Curve]">
           <UInt32 Name="Left">332</UInt32>
           <UInt32 Name="Top">204</UInt32>
           <UInt32 Name="Right">691</UInt32>
           <UInt32 Name="Bottom">563</UInt32>
-          <Reference Name="TrendData" Type="TRD">Source[local].TrendData[TrendData_2]</Reference>
+          <Reference Name="TrendData" Type="TRD">Source[local].TrendData[TrendData_6]</Reference>
           <Byte Name="MarkerType">0</Byte>
           <Byte Name="Reserved">0</Byte>
           <UInt16 Name="ZoomDisplayMode">1</UInt16>
